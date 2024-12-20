@@ -1,0 +1,146 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------navigation bar-------------------------------- */
+#navbar{
+ background-color: white;
+ padding: 0 ;
+ margin: 0;
+ display: contents;
+ justify-content: center;
+ align-items: center;
+ height: 200px;
+ width: 100%;
+ box-sizing: border-box;
+ 
+ 
+}
+.nav-bar{
+ width: 100%;
+ height: 170px;
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+ 
+}
+.nav-bar-first{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+
+.nav-bar-banner{
+    height: 80px;
+    width: 210px;
+    background-image:url("images/Screenshot (404)_processed.png");
+    image-resolution: 4px;
+    background-size: cover;
+    
+}
+
+/* navbar-search */
+
+.navbar-search{
+    display: flex;
+    width: 1500px;
+    height: 80px;
+    border-radius: 10px;
+    border: transparent;
+    margin-left: 70px;
+    background-color: #f0f5ff;
+    
+}
+
+.search-icon{
+    background-color: #f0f5ff;
+    width: 66px;
+    height: 80px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(139, 138, 138);
+    
+}
+.search-input{
+   border-radius: 0 10px 10px 0;
+   width: 1200px;
+   height: 80px;
+   border: none;
+   font-size: 2.5rem;
+   border-color:transparent;
+   background-color: #f0f5ff;
+}
+
+/* nav bar button options */
+.navbar-buttons-options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+
+.nav-bar-explore-button i{
+    font-size: xx-large;
+    border: 4px solid black;
+    border-radius: 70px;
+}
+.nav-bar-explore-button select{
+    font-size: xx-large;
+    font-weight: 300;
+}
+.nav-bar-Become_a_seller-button{
+    font-size: xx-large;
+}
+
+.nav-bar-sign_in-button{
+    display: flex;
+    font-size: xx-large;
+}
+
+.nav-bar-join-button{
+    height: 80px;
+    width: 80px;
+}
+.nav-bar-join-button{
+    font-size: xx-large;
+    color: black ;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.nav-bar-join-button:hover{
+   background-color: #f8f8f9;;
+   border:2px solid  #e2e3e2;
+
+}
+
+/*----------------------------- panel--------------- */
+
+.panel-section{
+    height:350px;
+    background-color: #f1f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-section-inner{
+    height: 300px;
+    background-color: white;
+    width: 98%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.panel-cards{
+    height:250px ;
+    width:280px ;
+    background-color: rgb(190, 125, 125);
+}
