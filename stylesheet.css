@@ -12,7 +12,7 @@
  display: contents;
  justify-content: center;
  align-items: center;
- height: 200px;
+ height: 120px;
  width: 100%;
  box-sizing: border-box;
  
@@ -20,7 +20,7 @@
 }
 .nav-bar{
  width: 100%;
- height: 170px;
+ height: 120px;
  display: flex;
  justify-content:space-evenly;
  align-items: center;
@@ -125,14 +125,14 @@
 /*----------------------------- panel--------------- */
 
 .panel-section{
-    height:350px;
+    height:300px;
     background-color: #f1f2f4;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .panel-section-inner{
-    height: 300px;
+    height: 250px;
     background-color: white;
     width: 98%;
     display: flex;
@@ -141,6 +141,20 @@
 }
 .panel-cards{
     height:250px ;
-    width:280px ;
-    background-color: rgb(190, 125, 125);
+    width:240px ;
+    /* background-color: rgb(190, 125, 125); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
 }
+.panel-cards img{
+    height: 150px;
+}
+.panel-cards select{
+    font-size: 33px;
+    margin-top: 15px;
+}
+
