@@ -2,10 +2,11 @@
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* -------------------navigation bar-------------------------------- */
-#navbar{
+.navbar{
  background-color: white;
  padding: 0 ;
  margin: 0;
@@ -15,6 +16,9 @@
  height: 120px;
  width: 100%;
  box-sizing: border-box;
+ position: sticky;
+ top: 0;
+
  
  
 }
@@ -25,12 +29,15 @@
  justify-content:space-evenly;
  align-items: center;
  
+ 
+ 
 }
 .nav-bar-first{
     display: flex;
     justify-content: left;
     align-items: center;
     width: 50%;
+       
 }
 
 
@@ -147,14 +154,102 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 .panel-cards img{
     height: 150px;
 }
 .panel-cards select{
-    font-size: 33px;
-    margin-top: 15px;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 13px;
 }
+.panel-cards select:hover {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+    color: rgb(62, 224, 62);
+  }
 
+/*--------- banner-section------------------ */
+/* Container styling for the banner section */
+.banner-section {
+    width: 100%;
+    max-width: 99%;  /* Ensure the section takes full width */
+    height: 550px; /* Set height for the section */
+    overflow: scroll; /* Hide anything outside the bounds */
+    padding: 20px 0;
+    position: relative;
+    background-color: #f1f2f4;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  
+  /* Container holding the banners */
+  .banner-container {
+    display: flex; /* Use flexbox to align banners horizontally */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for sliding effect */
+    margin-right: 27px;
+  }
+  
+  /* Individual banner styling */
+  .banner {
+    flex: 0 0 auto; /* Prevent banners from shrinking or growing */
+    width: 3020px; /* Fixed width for each banner */
+    height: 550px; /* Fixed height for each banner */
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill the space properly */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.banner-section::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .banner-section {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /*---------------------------------------------- first-content-row--------------------------------------- */
+
+  .first-content-row{
+    height: 700px;
+    max-width: 100%;
+    background-color:#f1f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-content-row-inner{
+    height: 670px;
+    background-color: white;
+    width: 98%;
+
+  }
+  .first-content-row-inner1 h1{
+    color: rgb(31, 31, 31);
+    font-size: 3em;
+    padding: 40px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    line-height: 30px;
+    letter-spacing: -.02px;
+  }
+
+  .content-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .first-row-cards{
+    height: 60%;
+    width: 200px;
+    border: 1px solid rgb(30, 29, 29);
+  }
