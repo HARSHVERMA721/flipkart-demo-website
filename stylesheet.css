@@ -88,7 +88,7 @@
 /* ---------------------nav bar button options---------------------- */
 .navbar-buttons-options{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 30%;
 }
@@ -105,11 +105,18 @@
 }
 .nav-bar-Become_a_seller-button{
     font-size: xx-large;
+
+}
+.nav-bar-Become_a_seller-button i{
+  margin-right: 15px;
 }
 
 .nav-bar-sign_in-button{
     display: flex;
     font-size: xx-large;
+}
+.nav-bar-sign_in-button i{
+   margin-right: 15px;
 }
 
 .nav-bar-join-button{
@@ -420,9 +427,9 @@
 
   .fourth-section-banner2{
     
-    height: 750px;
+    height: 690px;
     width: 100%;
-    background-color: #122b5c;
+    background-color: #f1f2f4;
     display: flex;
     justify-content: center;
     align-items: center;
