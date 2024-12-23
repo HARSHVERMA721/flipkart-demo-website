@@ -502,11 +502,11 @@
 
   /*------------------------------------------------------------------------------------ footer ----------------------------------------------------------------------*/
   .second-last-footer{
-    height: 700px;
+    height: 750px;
     background-color: #212121;
   }
   .second-last-footer-inner{
-    height: 80%;
+    height: 79%;
     padding: 90px;
     margin: 20px;
     display: flex;
@@ -528,7 +528,7 @@
     display: block;
     line-height: 18px;
   }
-  .second-last-footer-inner ul:hover{
+  .second-last-footer-inner li:hover{
     text-decoration: underline white;
   }
   .second-last-footer-inner p{
@@ -558,9 +558,23 @@
   /* --------------------------last-footer */
 
   .last-footer{
-    height: 20%;
+    height: 18%;
     border-top:2px solid #454d5e ;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .inner-last-footer{
+    display: flex;
+  }
+  .inner-last-footer i{
+    color: rgb(254, 221, 6);
+    font-size: 24px;
+  }
+  .inner-last-footer p{
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
   }
 
   
