@@ -1,6 +1,6 @@
 # flipkart Demo Website 🌟
 
-Welcome to the **flipkart Demo Website** repository! This project is a demonstration of an e-commerce platform inspired by Amazon. It showcases features, layout, design, and functionality for a user-friendly shopping experience.
+Welcome to the **flipkart Demo Website** repository! This project is a demonstration of an e-commerce platform inspired by flipkart. It showcases features, layout, design, and functionality for a user-friendly shopping experience.
 
 ---
 
@@ -18,3 +18,4 @@ Welcome to the **flipkart Demo Website** repository! This project is a demonstra
 - **CSS3**: For styling and layout.
 
 ---
+
