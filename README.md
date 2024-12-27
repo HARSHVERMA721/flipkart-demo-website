@@ -18,4 +18,16 @@ Welcome to the **flipkart Demo Website** repository! This project is a demonstra
 - **CSS3**: For styling and layout.
 
 ---
+## 📂 Folder Structure
+```plaintext
+📦 flipkart-demo-website
+
+├── 📁 images folder
+│   ├── 📁 images
+│   ├── 📁 images
+│   └── 📁 images
+├── 📄 index.html
+├── 📄 index_style.css
+├── 📄 README.md
+
 
