@@ -19,6 +19,10 @@ Welcome to the **flipkart Demo Website** repository! This project is a demonstra
 
 ---
 ![Screenshot (409)](https://github.com/user-attachments/assets/d04eefb3-264e-4ec7-8e22-dd42f5fe6d0c)
+
+![Untitleddesign4-ezgif com-crop](https://github.com/user-attachments/assets/ac44f0eb-069a-42e0-96ad-68e4f9b605ae)
+
+
 ![Screenshot (410)](https://github.com/user-attachments/assets/84e81e7d-01ba-4fbf-9af1-1276b321dbd5)
 ![Screenshot (412)](https://github.com/user-attachments/assets/bc12ad0d-d2e0-467c-941a-3cd4922dec61)
 ![Screenshot (411)](https://github.com/user-attachments/assets/23d6534c-4414-4e84-8c78-d8402e412d97)
