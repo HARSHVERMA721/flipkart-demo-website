@@ -33,9 +33,9 @@ Welcome to the **flipkart Demo Website** repository! This project is a demonstra
 
 
 ## 📂 Folder Structure
+
 ```plaintext
 📦 flipkart-demo-website
-
 ├── 📁 images folder
 │   ├── 📁 images
 │   ├── 📁 images
