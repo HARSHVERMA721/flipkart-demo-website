@@ -9,76 +9,61 @@
 </head>
 <body>
  <!----------------------------------------- navigation bar-------------------------- -->
-  <header>
-   <div class="navbar">
-
-     <div class="nav-bar">
-
-
-      <div class="nav-bar-first">
-
-        <div class="nav-bar-banner"></div>
-
-        <div class="navbar-search">
-
-            <!-- <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <input placeholder="Search for Products, Brands and More" class="search-input">
-            -->
-
-            <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <input placeholder="Search for Products, Brands and More" class="search-input">
-           
-
-
-         </div>
-        </div>
-
-
-         <div class="navbar-buttons-options">
-
-        
-
-            <div class="nav-bar-explore-button">
-                <i class="fa-regular fa-user"></i>
-                <select id="">
-                    <option>Harsh</option>
-                </select>
-            </div>
-
-            <div class="nav-bar-Become_a_seller-button" style="display: flex;">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Cart</p>
-            </div>
-
-            <div class="nav-bar-sign_in-button">
-                <i class="fa-solid fa-store"></i>
-                <p>Become a Seller</p>
-            </div>
-
-            
-            <button class="nav-bar-join-button">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
-            
-
-         </div>
  
 
-     </div>
+<header class="main-navbar">
+  <div class="nav-container">
+    
+    <div class="nav-left-section">
+      <div class="nav-logo">
+        </div>
+      
+      <div class="nav-search-container">
+        <div class="search-inner">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search for Products, Brands and More" class="search-input">
+        </div>
+      </div>
+    </div>
 
-   </div>
+    <div class="nav-right-section">
+      <div class="nav-action-item">
+        <i class="fa-regular fa-user"></i>
+        <select class="user-select">
+          <option>Harsh</option>
+          <option>Orders</option>
+          <option>Logout</option>
+        </select>
+      </div>
+
+      <div class="nav-action-item">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart</span>
+      </div>
+
+      <div class="nav-action-item hide-mobile">
+        <i class="fa-solid fa-store"></i>
+        <span>Become a Seller</span>
+      </div>
+
+      <button class="nav-more-btn">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </button>
+    </div>
+
+  </div>
 </header>
+
+
    <!------------------------- panel ------------------------------->
     
    <main >
+    <div class="panel-section   ">
+        <div class="panel-section-inner ">
 
-    <DIV class="panel-section">
-        <div class="panel-section-inner">
+            <div class="panel-cards"></div>
 
-            <Div class="panel-cards">
-            </Div>
-
-
+        
             <Div class="panel-cards">
                 <img src="images/indeximg/29327f40e9c4d26b.webp" alt="">
                 <p>Grocery</p>
@@ -139,14 +124,14 @@
 
 
         </div>
-    </DIV>
+    </div>
 
     <!------------------------------------------- banner section ----------------------------------------------->
     
-    <section style="background-color: #f1f2f4;">
+    <section class="banner-section-outer" style="background-color: #f1f2f4;">
     <section class="banner-section">
         <div class="banner-container">
-          <div class="banner">
+          <div class="banner active">
             <img src="images/indeximg/c857932113f9e5ad.webp" alt="Banner 1">
           </div>
           <div class="banner">
@@ -162,6 +147,11 @@
             <img src="images/indeximg/c857932113f9e5ad.webp" alt="Banner 5">
           </div>
         </div>
+
+        <div class="banner-nav">
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+    </div>
       </section>
     </section>
 
@@ -179,49 +169,49 @@
             <div class="content-cards">  
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/xxl-no-688745-puma-original-imah5tnbzrcgpyf4.webp"  alt="pic">
+                 <div class="img-container"><img src="images\indeximg/xxl-no-688745-puma-original-imah5tnbzrcgpyf4.webp"  alt="pic"></div>   
                     <p>PUMA Killer...</p>
                     <h3>50-80% off</h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/xxl-208kbd2204i-skylee-original-imah7ffdzfcu3u2f.webp" style="padding:0 20px 0 20px;" alt="pic">
+                    <div class="img-container"><img src="images\indeximg/xxl-208kbd2204i-skylee-original-imah7ffdzfcu3u2f.webp"  alt="pic"></div>
                     <p>kurta sets</p>
                     <h3>min.70% off</h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/s-1-cott-lad-black-top-fsv-1pc-lux-cottswool-original-imah6k5gs8ffhhum.webp" style="padding:0 20px 0 20px;"alt="pic">
+                  <div class="img-container"><img src="images\indeximg/s-1-cott-lad-black-top-fsv-1pc-lux-cottswool-original-imah6k5gs8ffhhum.webp" alt="pic"></div>  
                     <p>fort collins,wildraft...</p>
                     <h3>under &#8377; 499 </h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/b39be78353fcfc59.webp" alt="pic">
+                   <div class="img-container"><img src="images\indeximg/b39be78353fcfc59.webp" alt="pic"></div> 
                     <p>Reebok,HRX...</p>
                     <h3>Min. 70% Off</h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/-original-imah2c4fscc7vhzm.webp" style="padding:0 20px 0 20px;" alt="pic">
+                    <div class="img-container"><img src="images\indeximg/-original-imah2c4fscc7vhzm.webp"  alt="pic"></div>
                     <p>Safari,Aristocrat &...</p>
                     <h3>Min. 70% Off</h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/-original-imagzhjtzvgwwezt.webp"  style="padding:0 20px 0 20px;" alt="pic">
+                    <div class="img-container"><img src="images\indeximg/-original-imagzhjtzvgwwezt.webp"  alt="pic"></div>
                     <p>Titan,fossil, Police...</p>
                     <h3>Min.50% off</h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/na-na-3-ad-696-ir-gn-nker-estele-original-imagvjmhmbndy2af.webp"  alt="pic">
+                    <div class="img-container"><img src="images\indeximg/na-na-3-ad-696-ir-gn-nker-estele-original-imagvjmhmbndy2af.webp"  alt="pic"></div>
                     <p>Juwellery Sets,Earr...</p>
                     <h3>Under &#8377; 299 </h3>
                 </div>
 
                 <div class="first-row-cards">
-                    <img src="images\indeximg/8-sk-42-aeonik-white-original-imah4d6hwfhygc7n.webp" alt="pic">
+                    <div class="img-container"><img src="images\indeximg/pic333.webp" alt="pic"></div>
                     <p>Best Selling Stylest...</p>
                     <h3>Under &#8377; 399</h3>
                 </div>
@@ -235,9 +225,9 @@
 
 
         </div>
-
-        <div class ="first-content-row-inner2" style="background-image:url(images/indeximg/c8c5bbc3ac07dc55.webp);background-size: cover;" >
-            
+           
+        <div class="first-content-row-inner2">
+        <div class ="ad-content" style="background-image:url(images/indeximg/pic333.webp);" ></div>   
         </div>
 
 
@@ -248,21 +238,20 @@
     <div class="second-content-background">
 
         <div class="second-content-row1">
-            <div class="second-image" style="background-image: url(images/indeximg/05d708653beff580.webp);"></div>
-            <div class="second-image" style="background-image: url(images/indeximg/7a15ff56886d1051.webp);"></div>
-            <div class="second-image" style="background-image: url(images/indeximg/08ed687587b6272c.webp);"></div>
-        </div>
-
-        <div class="second-content-row2">
-            <div  class="second-image" style="background-image: url(images/indeximg/148e9883140d6e35.webp);"></div>
-            <div   class="second-image"style="background-image: url(images/indeximg/b3ee941d6274f1ff.webp);"></div>
-            <div  class="second-image" style="background-image: url(images/indeximg/d042ed7a0d8176fe.webp);"></div>
-
+            <div class="second-image"><img src="images/indeximg/1.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/2.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/3.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/4.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/5.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/6.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/7.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/8.webp" alt="Description"></div>
+            <div class="second-image"><img src="images/indeximg/9.webp" alt="Description"></div>
         </div>
 
     </div>
 
-    <!---------------------------------------------------------- third content ------------------------------------------------>
+  <!---------------------------------------------------------- third content ------------------------------------------------>
 
     <div class="second-content-row">
 
@@ -278,13 +267,13 @@
             <div class="content-cards1">  
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/4xl-no-mt2-jkt-hood-windc-gone-white-red-strip-motrex-original-imah4kj2vgqcnd3e.webp" style="padding: 20px 50px 20px 50px;" alt="pic">
+                    <img src="images\indeximg/4xl-no-mt2-jkt-hood-windc-gone-white-red-strip-motrex-original-imah4kj2vgqcnd3e.webp"  alt="pic">
                     <p>Men's Jacket</p>
                     <h3> Min 50 off</h3>
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/xxl-stw-high-neck-101-olv-doomee-original-imagwwhc9a46vhzw.webp" style="padding:20px 30px 20px 30px;" alt="pic">
+                    <img src="images\indeximg/xxl-stw-high-neck-101-olv-doomee-original-imagwwhc9a46vhzw.webp" alt="pic">
                     <p>Mens Sweeter</p>
                     <h3>min.50% off</h3>
                 </div>
@@ -294,13 +283,13 @@
             <div class="content-cards1">  
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/s-simpson-men-1-purple-s-jack-paris-original-imah6tz5zquc5dgg.webp" style="padding: 20px 50px 20px 50px;" alt="pic">
+                    <img src="images\indeximg/s-simpson-men-1-purple-s-jack-paris-original-imah6tz5zquc5dgg.webp" alt="pic">
                     <p>Men's Sweatshirts</p>
                     <h3>Best Picks</h3>
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/free-latest-stylish-winter-woolen-beanie-cap-scarf-and-original-imah77h8dj7tm8dz.webp" style="padding:20px 30px 20px 30px;" alt="pic">
+                    <img src="images\indeximg/free-latest-stylish-winter-woolen-beanie-cap-scarf-and-original-imah77h8dj7tm8dz.webp"alt="pic">
                     <p>Men's Mufflers</p>
                     <h3>min.50% off</h3>
                 </div>
@@ -325,13 +314,13 @@
             <div class="content-cards1">  
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/-original-imah4zm4ady4dsh9.webp" style="padding: 150px 30px 110px 30px;" alt="pic">
+                    <img src="images\indeximg/-original-imah4zm4ady4dsh9.webp" alt="pic">
                     <p>Air Conditioners</p>
                     <h3>Min.50% off</h3>
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/-original-imahygg2newjjddx.webp" style="padding: 100px 20px 40px 20px;" alt="pic" height="430px">
+                    <img src="images\indeximg/-original-imahygg2newjjddx.webp"  alt="pic">
                     <p>Television</p>
                     <h3>min.30% off</h3>
                 </div>
@@ -340,13 +329,13 @@
             <div class="content-cards1">  
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/-original-imagtz9hftnvjpyv.webp" style="padding: 70px 20px 60px 20px;"  alt="pic">
+                    <img src="images\indeximg/-original-imagtz9hftnvjpyv.webp"   alt="pic">
                     <p>Tablets</p>
                     <h3>Min.40% off</h3>
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/-original-imah2d6gzs9tssfg.webp" style="padding:20px 50px 20px 50px;" alt="pic">
+                    <img src="images\indeximg/-original-imah2d6gzs9tssfg.webp"  alt="pic">
                     <p>Washing Machines</p>
                     <h3>min.50% off</h3>
                 </div>
@@ -369,13 +358,13 @@
             <div class="content-cards1">  
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/normal-top-king-08-72-75-caspio-ortho-pu-foam-bonnell-spring-original-imah7g878y3msy6x.webp" style="padding: 20px  ;" alt="pic">
+                    <img src="images\indeximg/normal-top-king-08-72-75-caspio-ortho-pu-foam-bonnell-spring-original-imah7g878y3msy6x.webp" alt="pic">
                     <p>Bed Mattress</p>
                     <h3>Min.50% off</h3>
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.webp" style="padding: 20px;" alt="pic">
+                    <img src="images\indeximg/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.webp"  alt="pic">
                     <p>Beds</p>
                     <h3>Min.%0% off</h3>
                 </div>
@@ -390,7 +379,7 @@
                 </div>
 
                 <div class="second-row-cards">
-                    <img src="images\indeximg/-original-imagfhzfhfabteeu.webp" style="padding:20px;" alt="pic">
+                    <img src="images\indeximg/-original-imagfhzfhfabteeu.webp"  alt="pic">
                     <p>Sofas & Sectionals</p>
                     <h3>min.50% off</h3>
                 </div>
@@ -404,28 +393,18 @@
 
     </div>
 
-       <!-- -------------------------------------   fourth section -->
-
-    <div class="fourth-section-banner2">
-                <div class="fourth-section-banner2-inner">
-                   
-                </div>
-    </div>
 
     <!-- fifth section -->
      
     <div class="second-content-background">
 
         <div class="second-content-row1">
-            <div class="second-image" style="background-image: url(images/indeximg/6a50a23ea6319ed4.webp);"></div>
-            <div class="second-image" style="background-image: url(images/indeximg/547d756f97507e15.webp);"></div>
-            <div class="second-image" style="background-image: url(images/indeximg/c337d4aef8aa4c16.webp);"></div>
-        </div>
-
-        <div class="second-content-row2">
-            <div  class="second-image" style="background-image: url(images/indeximg/2dc85f509a490df0.webp);"></div>
-            <div   class="second-image"style="background-image: url(images/indeximg/555a34b43a2c618d.webp);"></div>
-            <div  class="second-image" style="background-image: url(images/indeximg/fef4f80ff53ba9ab.webp);"></div>
+            <div class="second-image"><img src="images/indeximg/6a50a23ea6319ed4.webp" alt=""></div>
+            <div class="second-image"><img src="images/indeximg/547d756f97507e15.webp" alt=""></div>
+            <div class="second-image"><img src="images/indeximg/c337d4aef8aa4c16.webp" alt=""></div>
+            <div class="second-image"><img src="images/indeximg/2dc85f509a490df0.webp" alt=""></div>
+            <div class="second-image"><img src="images/indeximg/555a34b43a2c618d.webp" alt=""></div>
+            <div class="second-image"><img src="images/indeximg/fef4f80ff53ba9ab.webp" alt=""></div>
 
         </div>
 
@@ -536,7 +515,7 @@
                 <ul>
                     <li>Payments</li>
                     <li>shipping</li>
-                    <li>cancellations and returns</li>
+                    <li>cancellations & returns</li>
                     <li>FAQ</li>
                   
                 </ul>
@@ -544,7 +523,7 @@
             <div class="footer-box">
                 <h4>CONSUMER POLICY</h4>
                 <ul>
-                    <li>cancellations and returns</li>
+                    <li>cancellations & returns</li>
                     <li>Terms of use</li>
                     <li>Security</li>
                     <li>sitemap</li>
@@ -587,11 +566,12 @@
                     <div class="inner-last-footer"><i class="fa-solid fa-gift"></i><p>Gift Cards</p></div>
                     <div class="inner-last-footer"><i class="fa-solid fa-question"></i><p>Help Centre</p></div>
                     <div class="inner-last-footer"><p> &#9400; 2007-2024 Flipkart.com</div></p>
-                    <div class="inner-last-footer"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/indeximg/payment-method-c454fb.svg" alt="payment-method" height="30px"></div>
+                    <div class="inner-last-footer"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-69e7ec.svg" alt="payment-method" height="30px"></div>
                  </div>              
      </div>
 
     </footer>
    </main>
+   <script src="index.js"></script>
 </body>
 </html>
