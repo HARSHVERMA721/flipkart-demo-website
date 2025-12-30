@@ -241,10 +241,6 @@ img {
   margin: 30px 0 30px 0;
 }
 
-.productinfo p {
-  margin-top: 10px;
-}
-
 .productinfo h4 {
   margin-top: 10px;
 }
@@ -291,11 +287,32 @@ img {
 
 .warrantydeliverysec {
   display: flex;
+  justify-content: flex-start;
+  align-items: start;
   margin-top: 15px;
 }
-.warrantydeliverysec p {
-  padding: 0 40px 0 0;
-  line-height: 30px;
+.warrantydeliverysec input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #2272f2;
+  outline: none;
+}
+.warrantydeliverysec h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+.warrantydeliverysecinner {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 50px;
+}
+.custom-list li::marker {
+  color: gray;
+}
+.warrantydeliverysecinner > * {
+  margin-bottom: 4px;
 }
 
 /*----------*/
@@ -310,14 +327,144 @@ hr {
   height: 1px;
   background-color: #f1f3f6;
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .Protectyourproductinner {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
+  position: relative;
+  font-size: 14px;
 }
+.Protectyourproductinner img {
+  height: 100%;
+  max-height: 200px;
+  margin-left: 30px;
+}
+
+.Protectyourproductinnerimg input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+}
+.Protectyourproductinnerinfo > * {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+.Protectyourproduct button {
+  color: white;
+  background-color: #717478;
+  padding: 10px 30px 10px 30px;
+  border-radius: 2px;
+}
+.Protectyourproduct button i {
+  margin-right: 10px;
+}
+/*-----------------------------*/
+.Protectyourproduct h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0 20px 10px;
+}
+.Protectyourproduct h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0 20px 10px;
+}
+.Protectyourproductinner2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.Protectyourproductinner2 ul {
+  margin-left: 10px;
+  line-height: 30px;
+  list-style: none;
+  color: #878787;
+  font-size: 14px;
+}
+/*-----------------------------*/
+.ratingandreviewsheader1 {
+  display: flex;
+  justify-content: space-between;
+}
+.ratingandreviewsheader1 h4 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.ratingandreviewsheader1 button {
+  background-color: white;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+  color: #212121;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 18px 18px 0 0;
+  padding: 16px 36px;
+}
+.ratingandreviewsheader2 {
+  display: flex;
+  align-items: start;
+}
+.ratingandreviewsheader2 p {
+  color: gray;
+  font-size: 12px;
+}
+.ratingandreviewsheader2 img {
+  margin-left: 20px;
+}
+.custom-margin {
+  margin: 20px;
+}
+.Reviews > * {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.Reviews button {
+  color: #e8e9ea;
+  background-color: #188d18;
+  margin-bottom: 14px;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 14px;
+}
+.paragraphoneofreview {
+  color: gray;
+}
+
+/*---------*/
+.Protectyourproductlast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid #e8e9ea;
+  padding: 10px;
+}
+.Protectyourproductlast {
+  color: #212121;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.Protectyourproductlast button {
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+  color: #212121;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 16px 0;
+  text-transform: capitalize;
+  width: 232px;
+}
+
+/*-----------------------------*/
 .smallcards {
   position: relative;
   max-height: 350px;
