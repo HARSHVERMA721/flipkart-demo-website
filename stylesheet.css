@@ -734,37 +734,13 @@ a {
   }
 
   /* ---------- PANEL SECTION ---------- */
+
   .panel-section {
-    height: auto;
-    padding: 10px 0;
-  }
-
-  .panel-section-inner {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    justify-content: flex-start;
-    gap: 14px;
-  }
-
-  .panel-cards {
-    width: 90px;
-    height: auto;
-    flex-shrink: 0;
-    font-size: 12px;
-  }
-
-  .panel-cards img {
-    width: 60px;
-  }
-
-  .panel-cards p,
-  .panel-cards select {
-    font-size: 12px;
+    display: none;
   }
 
   /* ---------- BANNER ---------- */
   .banner-section {
-    aspect-ratio: 16 / 7; /* Taller banner on mobile for better visibility */
     width: 100%;
   }
 
@@ -775,6 +751,7 @@ a {
 
   /* ---------- FIRST CONTENT ROW ---------- */
   .first-content-row {
+    padding: 10px;
     flex-direction: column;
     height: auto;
   }
@@ -824,7 +801,6 @@ a {
 
   .second-content-row1,
   .second-content-row2 {
-    flex-direction: column;
     height: auto;
     align-items: center;
   }
@@ -860,7 +836,6 @@ a {
   }
 
   .content-cards1 {
-    flex-direction: column;
     height: auto;
   }
 
