@@ -219,7 +219,7 @@ img {
   justify-content: space-between;
   transform: translateY(-50%);
   z-index: 10;
-  padding: 0 15px;
+  padding: 0;
   pointer-events: none; /* Allows clicking through the container */
 }
 
@@ -227,11 +227,16 @@ img {
   pointer-events: auto; /* Re-enables clicking for buttons */
   background: rgba(255, 255, 255, 0.8);
   border: none;
-  padding: 15px 10px;
+  padding: 25px 20px;
   cursor: pointer;
   font-size: 20px;
-  border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.banner-nav:nth-child(1) {
+  border-radius: 0 4px 4px 0;
+}
+.banner-nav:nth-child(2) {
+  border-radius: 4px 0 0 4px;
 }
 
 .next:hover {
