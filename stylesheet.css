@@ -186,40 +186,28 @@ img {
 }
 .banner-section {
   width: 98%;
-  position: relative;
   aspect-ratio: 16/4;
-  overflow: hidden; /* Hide anything outside the bounds */
+  position: relative;
+  overflow: hidden;
   border-radius: 4px;
 }
-
-/* Container holding the banners */
 .banner-container {
-  position: relative; /* Use flexbox to align banners horizontally */
+  display: flex; /* 👈 makes banners horizontal */
   width: 100%;
   height: 100%;
-  /* opacity: 0; */
-  transition: opacity 0.8s ease-in-out;
-  z-index: 1;
-  overflow-x: scroll;
+  transition: transform 0.6s ease-in-out;
 }
 
 /* Individual banner styling */
-.banner.active {
-  transition: opacity 0.8s ease-in-out;
-  z-index: 1;
-}
 .banner {
-  width: 100%;
+  min-width: 100%; /* 👈 each banner full width */
   height: 100%;
-  object-fit: cover; /* Prevents stretching */
-  display: block;
 }
 
 .banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; /* Ensures images fill the space properly */
 }
 
 /* Navigation Buttons Styling */
@@ -255,13 +243,13 @@ img {
 }
 
 /* Scrollbar Hiding */
-.banner-container::-webkit-scrollbar {
+/* .banner-container::-webkit-scrollbar {
   display: none;
 }
 .banner-container {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
+} */
 
 /*---------------------------------------------- first-content-row--------------------------------------- */
 
