@@ -851,11 +851,6 @@ a {
   .secnavbar {
     display: none;
   }
-
-  .productsectioninnerdiv {
-    flex-direction: column;
-  }
-
   .productsectioninnerdiv {
     margin-left: 90px;
   }
@@ -890,7 +885,8 @@ a {
   /* product section */
 
   .productsectioninnerdiv {
-    margin-left: 90px;
+    flex-direction: column;
+    margin-left: 700px;
   }
   .productinfo {
     padding: 15px;
@@ -911,7 +907,7 @@ a {
   }
   #img1,
   #img2 {
-    width: 100%;
+    width: 48%;
     margin: 10px 0;
   }
 
